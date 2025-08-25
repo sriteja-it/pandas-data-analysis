@@ -1,0 +1,12 @@
+import pandas as pd
+print("\n current date and time:\n\n",pd.Timestamp.now())
+ts=pd.Timestamp(year=2025,month=8,day=24,hour=12)
+print("Date and time:\n",ts)
+print("\n Day ofn the week:",ts.dayofweek)
+print("\n display the day of year",ts.dayofyear)
+print("display days in the month\n",ts.daysinmonth)
+print("\n year the leap year or not?\n\n",ts.is_leap_year)
+print("\ncheck wheather day is the last day in month:\n",ts.is_month_end)
+print("\n checking the is month start:\n\n",ts.is_month_start)
+print("\n last day of the year:\n\n",ts.is_year_end)
+print("checking the date is the year first:\n\n ",ts.is_year_start )
